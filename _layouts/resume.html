@@ -127,7 +127,19 @@
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          <ul class="skill-icons">
+          {% for specific in skill.description %}
+            <li class="icon-link-item">
+            <!-- look for icon associated with skill, inefficient but works -->
+              {% for static_file in site.static_files %}
+                {% if static_file.path contains specific %}
+                  {% include icons/icon-{{ specific }}.html %}
+                {% endif %}
+              {% endfor %}
+              {{ specific }}
+            </li>
+          {% endfor %}
+          </ul>
         </div>
         {% endfor %}
 

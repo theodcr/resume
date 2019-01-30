@@ -1,9 +1,18 @@
 # Skills
 - skill: Languages & Frameworks
-  description: Python, Scala
+  description:
+      - Python
+      - Scala
 
 - skill: Tools
-  description: Vim, git, Docker, bash, linux
+  description:
+      - Vim
+      - git
+      - Docker
+      - bash
+      - Linux
 
 - skill: Cloud
-  description: AWS, Azure
+  description:
+      - AWS
+      - Azure
