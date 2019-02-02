@@ -1,10 +1,22 @@
 # Skills
-- skill: Languages & Frameworks
+- skill: Python & Scala
   description:
       - Python
+      - Spark
       - Scala
 
-- skill: Tools
+- skill: Data Visualization
+  description:
+      - Altair
+      - Vega-Lite
+      - Matplotlib
+
+- skill: Machine Learning
+  description:
+      - Scikit-learn
+      - XGBoost
+
+- skill: Development Tools
   description:
       - Vim
       - git
@@ -12,7 +24,7 @@
       - bash
       - Linux
 
-- skill: Cloud
+- skill: Cloud Deployement
   description:
       - AWS
       - Azure
