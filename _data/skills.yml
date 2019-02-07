@@ -2,13 +2,15 @@
 - skill: Python & Scala
   description:
       - python
-      - spark
       - scala
+      - pandas
+      - spark
 
 - skill: Data Visualization
   description:
-      - Altair
-      - Vega-Lite
+      - altair
+      - vega
+      - plotly
       - matplotlib
 
 - skill: Machine Learning
