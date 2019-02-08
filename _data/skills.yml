@@ -30,3 +30,4 @@
   description:
       - aws
       - azure
+      - databricks
