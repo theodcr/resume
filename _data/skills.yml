@@ -4,6 +4,7 @@
       - python
       - scala
       - pandas
+      - dask
       - spark
 
 - skill: Data Visualization
@@ -11,12 +12,14 @@
       - altair
       - vega
       - plotly
+      - holoviews
       - matplotlib
 
 - skill: Machine Learning
   description:
       - scikit
       - xgboost
+      - keras
 
 - skill: Development Tools
   description:
